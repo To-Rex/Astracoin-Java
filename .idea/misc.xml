@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Professional/Desktop/AstroCoinUz2/app/src/main/res/drawable/ic_key_square.xml" value="0.2195" />
+        <entry key="..\:/Users/Professional/Desktop/AstroCoinUz2/app/src/main/res/drawable/ic_raks.xml" value="0.2195" />
+        <entry key="..\:/Users/Professional/Desktop/AstroCoinUz2/app/src/main/res/layout-large/borromsheetweb.xml" value="0.17443351859769132" />
+        <entry key="..\:/Users/Professional/Desktop/AstroCoinUz2/app/src/main/res/layout-large/bottompassword.xml" value="0.159375" />
+        <entry key="..\:/Users/Professional/Desktop/AstroCoinUz2/app/src/main/res/layout-large/bottomsheetqrcode.xml" value="0.159375" />
+        <entry key="..\:/Users/Professional/Desktop/AstroCoinUz2/app/src/main/res/layout-large/bottomsheetsend.xml" value="0.159375" />
+        <entry key="..\:/Users/Professional/Desktop/AstroCoinUz2/app/src/main/res/layout-large/fragment_sample.xml" value="0.159375" />
+        <entry key="..\:/Users/Professional/Desktop/AstroCoinUz2/app/src/main/res/layout-large/fragment_settings.xml" value="0.159375" />
+        <entry key="..\:/Users/Professional/Desktop/AstroCoinUz2/app/src/main/res/layout-large/popupsearch.xml" value="0.17443351859769132" />
+        <entry key="..\:/Users/Professional/Desktop/AstroCoinUz2/app/src/main/res/layout-normal/borromsheetweb.xml" value="0.2125" />
+        <entry key="..\:/Users/Professional/Desktop/AstroCoinUz2/app/src/main/res/layout-normal/bottomsheetqrcode.xml" value="0.25" />
+        <entry key="..\:/Users/Professional/Desktop/AstroCoinUz2/app/src/main/res/layout-normal/bottomsheetsend.xml" value="0.2125" />
+        <entry key="..\:/Users/Professional/Desktop/AstroCoinUz2/app/src/main/res/layout-normal/fragment_sample.xml" value="0.33" />
+        <entry key="..\:/Users/Professional/Desktop/AstroCoinUz2/app/src/main/res/layout-normal/fragment_settings.xml" value="0.33" />
+        <entry key="..\:/Users/Professional/Desktop/AstroCoinUz2/app/src/main/res/layout-normal/popupsearch.xml" value="0.2125" />
+        <entry key="..\:/Users/Professional/Desktop/AstroCoinUz2/app/src/main/res/layout-small/fragment_sample.xml" value="0.33" />
+        <entry key="..\:/Users/Professional/Desktop/AstroCoinUz2/app/src/main/res/layout-small/password.xml" value="0.25" />
+        <entry key="..\:/Users/Professional/Desktop/AstroCoinUz2/app/src/main/res/layout/activity_main.xml" value="1.275" />
+        <entry key="..\:/Users/Professional/Desktop/AstroCoinUz2/app/src/main/res/layout/borromsheetweb.xml" value="0.2" />
+        <entry key="..\:/Users/Professional/Desktop/AstroCoinUz2/app/src/main/res/layout/bottompassword.xml" value="1.275" />
+        <entry key="..\:/Users/Professional/Desktop/AstroCoinUz2/app/src/main/res/layout/bottomperinfo.xml" value="1.275" />
+        <entry key="..\:/Users/Professional/Desktop/AstroCoinUz2/app/src/main/res/layout/bottomsheetqrcode.xml" value="1.275" />
+        <entry key="..\:/Users/Professional/Desktop/AstroCoinUz2/app/src/main/res/layout/bottomsheetsend.xml" value="1.275" />
+        <entry key="..\:/Users/Professional/Desktop/AstroCoinUz2/app/src/main/res/layout/fragment_sample.xml" value="0.1" />
+        <entry key="..\:/Users/Professional/Desktop/AstroCoinUz2/app/src/main/res/layout/password.xml" value="1.275" />
+        <entry key="..\:/Users/Professional/Desktop/AstroCoinUz2/app/src/main/res/layout/popupsearch.xml" value="1.275" />
+        <entry key="app/src/main/res/drawable/bottombar.xml" value="0.31" />
+        <entry key="app/src/main/res/drawable/bottommenu.xml" value="0.3958333333333333" />
+        <entry key="app/src/main/res/drawable/bottommenu1.xml" value="0.3958333333333333" />
+        <entry key="app/src/main/res/drawable/buttonsigunup.xml" value="0.3958333333333333" />
+        <entry key="app/src/main/res/drawable/shadovfon.xml" value="0.209375" />
+        <entry key="app/src/main/res/layout-large/activity_main.xml" value="0.26953125" />
+        <entry key="app/src/main/res/layout-large/borromsheetweb.xml" value="0.4675925925925926" />
+        <entry key="app/src/main/res/layout-large/bottompassword.xml" value="0.26953125" />
+        <entry key="app/src/main/res/layout-large/bottomperinfo.xml" value="0.26953125" />
+        <entry key="app/src/main/res/layout-large/bottomsheetqrcode.xml" value="0.26953125" />
+        <entry key="app/src/main/res/layout-large/bottomsheetschek.xml" value="0.26953125" />
+        <entry key="app/src/main/res/layout-large/bottomsheetsearchuser.xml" value="0.26953125" />
+        <entry key="app/src/main/res/layout-large/bottomsheetsend.xml" value="0.26953125" />
+        <entry key="app/src/main/res/layout-large/fragment_sample.xml" value="0.26953125" />
+        <entry key="app/src/main/res/layout-large/fragment_search.xml" value="0.26953125" />
+        <entry key="app/src/main/res/layout-large/fragment_settings.xml" value="0.17959396147839668" />
+        <entry key="app/src/main/res/layout-large/password.xml" value="0.26953125" />
+        <entry key="app/src/main/res/layout-large/popupsearch.xml" value="0.26953125" />
+        <entry key="app/src/main/res/layout-large/popupsettings.xml" value="0.26953125" />
+        <entry key="app/src/main/res/layout-large/spleshscreen.xml" value="0.26953125" />
+        <entry key="app/src/main/res/layout-large/transfer_item.xml" value="0.26953125" />
+        <entry key="app/src/main/res/layout-large/transfer_order_item.xml" value="0.26953125" />
+        <entry key="app/src/main/res/layout-large/usersearch_item.xml" value="0.45" />
+        <entry key="app/src/main/res/layout-normal/activity_main.xml" value="0.75" />
+        <entry key="app/src/main/res/layout-normal/borromsheetweb.xml" value="0.375" />
+        <entry key="app/src/main/res/layout-normal/bottompassword.xml" value="0.359375" />
+        <entry key="app/src/main/res/layout-normal/bottomperinfo.xml" value="0.359375" />
+        <entry key="app/src/main/res/layout-normal/bottomsheetqrcode.xml" value="0.359375" />
+        <entry key="app/src/main/res/layout-normal/bottomsheetschek.xml" value="0.359375" />
+        <entry key="app/src/main/res/layout-normal/bottomsheetsearchuser.xml" value="0.359375" />
+        <entry key="app/src/main/res/layout-normal/bottomsheetsend.xml" value="0.359375" />
+        <entry key="app/src/main/res/layout-normal/fragment_sample.xml" value="0.359375" />
+        <entry key="app/src/main/res/layout-normal/fragment_search.xml" value="0.359375" />
+        <entry key="app/src/main/res/layout-normal/fragment_settings.xml" value="0.35956227201667534" />
+        <entry key="app/src/main/res/layout-normal/password.xml" value="0.359375" />
+        <entry key="app/src/main/res/layout-normal/popupsearch.xml" value="0.359375" />
+        <entry key="app/src/main/res/layout-normal/popupsettings.xml" value="0.359375" />
+        <entry key="app/src/main/res/layout-normal/spleshscreen.xml" value="0.359375" />
+        <entry key="app/src/main/res/layout-normal/transfer_item.xml" value="0.359375" />
+        <entry key="app/src/main/res/layout-normal/transfer_order_item.xml" value="0.359375" />
+        <entry key="app/src/main/res/layout-normal/usersearch_item.xml" value="0.359375" />
+        <entry key="app/src/main/res/layout-sw600dp/bottomsheetweb.xml" value="0.284765625" />
+        <entry key="app/src/main/res/layout-sw600dp/usersearch_item.xml" value="0.26953125" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.359375" />
+        <entry key="app/src/main/res/layout/borromsheetweb.xml" value="0.375" />
+        <entry key="app/src/main/res/layout/bottompassword.xml" value="0.359375" />
+        <entry key="app/src/main/res/layout/bottomperinfo.xml" value="0.359375" />
+        <entry key="app/src/main/res/layout/bottomsheetqrcode.xml" value="0.359375" />
+        <entry key="app/src/main/res/layout/bottomsheetscanner.xml" value="0.359375" />
+        <entry key="app/src/main/res/layout/bottomsheetschek.xml" value="0.359375" />
+        <entry key="app/src/main/res/layout/bottomsheetsearchuser.xml" value="0.359375" />
+        <entry key="app/src/main/res/layout/bottomsheetsend.xml" value="0.359375" />
+        <entry key="app/src/main/res/layout/fragment_order.xml" value="0.359375" />
+        <entry key="app/src/main/res/layout/fragment_sample.xml" value="0.359375" />
+        <entry key="app/src/main/res/layout/fragment_search.xml" value="0.359375" />
+        <entry key="app/src/main/res/layout/fragment_settings.xml" value="0.359375" />
+        <entry key="app/src/main/res/layout/fragment_transfer.xml" value="0.359375" />
+        <entry key="app/src/main/res/layout/password.xml" value="0.43645833333333334" />
+        <entry key="app/src/main/res/layout/popupsearch.xml" value="0.359375" />
+        <entry key="app/src/main/res/layout/popupsettings.xml" value="0.359375" />
+        <entry key="app/src/main/res/layout/sample.xml" value="0.359375" />
+        <entry key="app/src/main/res/layout/spleshscreen.xml" value="0.359375" />
+        <entry key="app/src/main/res/layout/transfer_item.xml" value="0.359375" />
+        <entry key="app/src/main/res/layout/transfer_order_item.xml" value="0.359375" />
+        <entry key="app/src/main/res/layout/usersearch_item.xml" value="0.1" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.31" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.31" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

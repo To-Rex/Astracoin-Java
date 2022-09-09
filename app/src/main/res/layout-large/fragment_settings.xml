@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/fon">
+
+        <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/usimage"
+                android:layout_width="210dp"
+                android:layout_height="210dp"
+                android:layout_marginTop="48dp"
+                android:scaleType="centerCrop"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.App.CornerSize50Percent"
+                app:srcCompat="@drawable/ic_profile_circle"/>
+
+        <TextView
+                android:id="@+id/txtsetfullname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/connect"
+                android:textColor="@color/black"
+                android:textSize="40sp"
+                app:fontFamily="@font/fredoka_fonts"
+                app:layout_constraintEnd_toEndOf="@+id/usimage"
+                app:layout_constraintStart_toStartOf="@+id/usimage"
+                app:layout_constraintTop_toBottomOf="@+id/usimage"/>
+
+        <TextView
+                android:id="@+id/txtsetemail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/connect"
+                android:textSize="22sp"
+                app:fontFamily="@font/fredoka_fonts"
+                app:layout_constraintEnd_toEndOf="@+id/txtsetfullname"
+                app:layout_constraintStart_toStartOf="@+id/txtsetfullname"
+                app:layout_constraintTop_toBottomOf="@+id/txtsetfullname"/>
+
+        <View
+                android:id="@+id/view11"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/walletcard"
+                app:layout_constraintEnd_toEndOf="@+id/view14"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/view14"
+                app:layout_constraintTop_toBottomOf="@+id/view32"/>
+
+        <View
+                android:id="@+id/view32"
+                android:layout_width="0dp"
+                android:layout_height="163dp"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/walletcard"
+                app:layout_constraintEnd_toEndOf="@+id/view14"
+                app:layout_constraintStart_toStartOf="@+id/view14"
+                app:layout_constraintTop_toBottomOf="@+id/view9"/>
+
+        <View
+                android:id="@+id/view30"
+                android:layout_width="700dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="28dp"
+                android:background="@drawable/walletcard"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.508"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtsetemail"/>
+
+        <View
+                android:id="@+id/view31"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/walletcard"
+                app:layout_constraintEnd_toEndOf="@+id/view30"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/view30"
+                app:layout_constraintTop_toBottomOf="@+id/view30"/>
+
+        <View
+                android:id="@+id/view9"
+                android:layout_width="0dp"
+                android:layout_height="230dp"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/walletcard"
+                app:layout_constraintEnd_toEndOf="@+id/view31"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/view31"
+                app:layout_constraintTop_toBottomOf="@+id/view31"/>
+
+        <View
+                android:id="@+id/view13"
+                android:layout_width="700dp"
+                android:layout_height="3dp"
+                android:background="@color/fon"
+                app:layout_constraintBottom_toTopOf="@+id/view16"
+                app:layout_constraintEnd_toEndOf="@+id/view9"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/view9"
+                app:layout_constraintTop_toTopOf="@+id/view9"
+                app:layout_constraintVertical_bias="0.653"/>
+
+        <View
+                android:id="@+id/view14"
+                android:layout_width="700dp"
+                android:layout_height="3dp"
+                android:background="@color/fon"
+                app:layout_constraintBottom_toBottomOf="@+id/view9"
+                app:layout_constraintEnd_toEndOf="@+id/view9"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/view9"
+                app:layout_constraintTop_toTopOf="@+id/view16"
+                app:layout_constraintVertical_bias="0.367"/>
+
+        <View
+                android:id="@+id/view16"
+                android:layout_width="350dp"
+                android:layout_height="3dp"
+                app:layout_constraintBottom_toBottomOf="@+id/view9"
+                app:layout_constraintEnd_toEndOf="@+id/view9"
+                app:layout_constraintStart_toStartOf="@+id/view9"
+                app:layout_constraintTop_toTopOf="@+id/view9"/>
+
+        <ImageView
+                android:id="@+id/imageView16"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="16dp"
+                app:layout_constraintBottom_toTopOf="@+id/view13"
+                app:layout_constraintStart_toStartOf="@+id/view13"
+                app:layout_constraintTop_toTopOf="@+id/view9"
+                app:srcCompat="@drawable/ic_security_user"
+                tools:ignore="ContentDescription"/>
+
+        <ImageView
+                android:id="@+id/imageView17"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                app:layout_constraintBottom_toTopOf="@+id/view14"
+                app:layout_constraintStart_toStartOf="@+id/imageView16"
+                app:layout_constraintTop_toBottomOf="@+id/view13"
+                app:srcCompat="@drawable/ic_teacher"
+                tools:ignore="ContentDescription"/>
+
+        <ImageView
+                android:id="@+id/imageView18"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                app:layout_constraintBottom_toBottomOf="@+id/view9"
+                app:layout_constraintStart_toStartOf="@+id/imageView17"
+                app:layout_constraintTop_toBottomOf="@+id/view14"
+                app:srcCompat="@drawable/ic_emptywallet"
+                tools:ignore="ContentDescription"/>
+
+        <ImageView
+                android:id="@+id/imageView21"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                app:layout_constraintBottom_toBottomOf="@+id/view11"
+                app:layout_constraintStart_toStartOf="@+id/imageView18"
+                app:layout_constraintTop_toTopOf="@+id/view11"
+                app:srcCompat="@drawable/ic_logout"
+                tools:ignore="ContentDescription"/>
+
+        <TextView
+                android:id="@+id/txtsettperinfo"
+                android:layout_width="570dp"
+                android:layout_height="79dp"
+                android:gravity="center_vertical"
+                android:text="@string/connect"
+                android:textSize="20sp"
+                app:fontFamily="@font/fredoka_fonts"
+                app:layout_constraintBottom_toTopOf="@+id/view13"
+                app:layout_constraintStart_toStartOf="@+id/txtsettshop"
+                app:layout_constraintTop_toTopOf="@+id/view9"/>
+
+        <TextView
+                android:id="@+id/txtsettperinfo2"
+                android:layout_width="570dp"
+                android:layout_height="79dp"
+                android:gravity="center_vertical"
+                android:text="@string/connect"
+                android:textSize="20sp"
+                app:fontFamily="@font/fredoka_fonts"
+                app:layout_constraintBottom_toTopOf="@+id/view14"
+                app:layout_constraintStart_toStartOf="@+id/txtsettperinfo"
+                app:layout_constraintTop_toBottomOf="@+id/view13"/>
+
+        <TextView
+                android:id="@+id/txtsettperinfo3"
+                android:layout_width="570dp"
+                android:layout_height="79dp"
+                android:gravity="center_vertical"
+                android:text="@string/connect"
+                android:textSize="20sp"
+                app:fontFamily="@font/fredoka_fonts"
+                app:layout_constraintBottom_toBottomOf="@+id/view9"
+                app:layout_constraintStart_toStartOf="@+id/txtsettperinfo2"
+                app:layout_constraintTop_toBottomOf="@+id/view14"/>
+
+        <TextView
+                android:id="@+id/txtsettshop"
+                android:layout_width="570dp"
+                android:layout_height="79dp"
+                android:layout_marginStart="24dp"
+                android:gravity="center_vertical"
+                android:text="@string/astrum_store"
+                android:textSize="20sp"
+                app:fontFamily="@font/fredoka_fonts"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView14"
+                app:layout_constraintStart_toEndOf="@+id/imageView14"
+                app:layout_constraintTop_toTopOf="@+id/imageView14"
+                app:layout_constraintVertical_bias="0.578"/>
+
+        <TextView
+                android:id="@+id/txtsettpassword"
+                android:layout_width="570dp"
+                android:layout_height="79dp"
+                android:gravity="center_vertical"
+                android:text="@string/change_password"
+                android:textSize="20sp"
+                app:fontFamily="@font/fredoka_fonts"
+                app:layout_constraintBottom_toTopOf="@+id/view34"
+                app:layout_constraintStart_toStartOf="@+id/txtsettperinfo"
+                app:layout_constraintTop_toTopOf="@+id/view32"/>
+
+        <TextView
+                android:id="@+id/txtsettpassword2"
+                android:layout_width="570dp"
+                android:layout_height="79dp"
+                android:gravity="center_vertical"
+                android:text="@string/app_password"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="@+id/view32"
+                app:layout_constraintStart_toStartOf="@+id/txtsettpassword"
+                app:layout_constraintTop_toBottomOf="@+id/view34"/>
+
+        <TextView
+                android:id="@+id/txtsetlogout"
+                android:layout_width="570dp"
+                android:layout_height="79dp"
+                android:gravity="center_vertical"
+                android:text="@string/log_out"
+                android:textColor="#FF0000"
+                android:textSize="20sp"
+                app:fontFamily="@font/fredoka_fonts"
+                app:layout_constraintBottom_toBottomOf="@+id/view11"
+                app:layout_constraintStart_toStartOf="@+id/txtsettpassword"
+                app:layout_constraintTop_toTopOf="@+id/view11"/>
+
+        <ProgressBar
+                android:id="@+id/setprogressBar"
+                style="?android:attr/progressBarStyle"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"/>
+
+        <View
+                android:id="@+id/view"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:background="@drawable/bottommenu"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"/>
+
+        <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="54dp"
+                android:layout_height="54dp"
+                android:elevation="0dp"
+                android:scaleType="fitXY"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/guideline22"
+                app:layout_constraintTop_toTopOf="@+id/view"
+                app:srcCompat="@drawable/ic_transfer_wallet"
+                tools:ignore="ContentDescription"/>
+
+        <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="54dp"
+                android:layout_height="54dp"
+                android:elevation="0dp"
+                android:scaleType="fitXY"
+                app:layout_constraintEnd_toStartOf="@+id/imageView10"
+                app:layout_constraintStart_toEndOf="@+id/imageView8"
+                app:layout_constraintTop_toTopOf="@+id/imageView8"
+                app:srcCompat="@drawable/ic_discover"
+                tools:ignore="ContentDescription"/>
+
+        <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="54dp"
+                android:layout_height="54dp"
+                android:elevation="0dp"
+                android:scaleType="fitXY"
+                app:layout_constraintEnd_toStartOf="@+id/guideline23"
+                app:layout_constraintTop_toTopOf="@+id/imageView9"
+                app:srcCompat="@drawable/ic_setting"
+                tools:ignore="ContentDescription"/>
+
+        <TextView
+                android:id="@+id/txtsettrank"
+                android:layout_width="570dp"
+                android:layout_height="79dp"
+                android:gravity="center_vertical"
+                android:text="@string/student_ranks"
+                android:textSize="20sp"
+                app:fontFamily="@font/fredoka_fonts"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView13"
+                app:layout_constraintStart_toStartOf="@+id/txtsettshop"
+                app:layout_constraintTop_toTopOf="@+id/imageView13"/>
+
+        <ImageView
+                android:id="@+id/imageView13"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                app:layout_constraintBottom_toBottomOf="@+id/view30"
+                app:layout_constraintStart_toStartOf="@+id/imageView16"
+                app:layout_constraintTop_toTopOf="@+id/view30"
+                app:srcCompat="@drawable/ic_raks"
+                tools:ignore="ContentDescription"/>
+
+        <ImageView
+                android:id="@+id/imageView14"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                app:layout_constraintBottom_toBottomOf="@+id/view31"
+                app:layout_constraintStart_toStartOf="@+id/imageView13"
+                app:layout_constraintTop_toTopOf="@+id/view31"
+                app:srcCompat="@drawable/ic_shop11"
+                tools:ignore="ContentDescription"/>
+
+        <View
+                android:id="@+id/view34"
+                android:layout_width="700dp"
+                android:layout_height="3dp"
+                android:background="@color/fon"
+                app:layout_constraintBottom_toBottomOf="@+id/view32"
+                app:layout_constraintEnd_toEndOf="@+id/view32"
+                app:layout_constraintStart_toStartOf="@+id/view32"
+                app:layout_constraintTop_toTopOf="@+id/view32"/>
+
+        <ImageView
+                android:id="@+id/imageView15"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                app:layout_constraintBottom_toTopOf="@+id/view34"
+                app:layout_constraintStart_toStartOf="@+id/imageView18"
+                app:layout_constraintTop_toTopOf="@+id/view32"
+                app:srcCompat="@drawable/ic_key_square"
+                tools:ignore="ContentDescription"/>
+
+        <ImageView
+                android:id="@+id/imageView19"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                app:layout_constraintBottom_toBottomOf="@+id/view32"
+                app:layout_constraintStart_toStartOf="@+id/imageView15"
+                app:layout_constraintTop_toBottomOf="@+id/view34"
+                app:srcCompat="@drawable/ic_lock"
+                tools:ignore="ContentDescription"/>
+
+        <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guideline22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.05"/>
+
+        <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guideline23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.95"/>
+
+        <ImageView
+                android:id="@+id/imageView25"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:elevation="6dp"
+                app:layout_constraintBottom_toBottomOf="@+id/usimage"
+                app:layout_constraintEnd_toEndOf="@+id/usimage"
+                app:srcCompat="@drawable/customitem"
+                tools:ignore="ContentDescription"/>
+
+        <ImageView
+                android:id="@+id/imageView26"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:elevation="7dp"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView25"
+                app:layout_constraintEnd_toEndOf="@+id/imageView25"
+                app:layout_constraintStart_toStartOf="@+id/imageView25"
+                app:layout_constraintTop_toTopOf="@+id/imageView25"
+                app:srcCompat="@drawable/ic_camera"
+                tools:ignore="ContentDescription"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bottomsheetdisigin">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/edibottomwallcament"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:minLines="2"
+            android:maxLines="4"
+            android:background="@drawable/loginedittext1"
+            android:elevation="0.1dp"
+            android:ems="10"
+            android:hint="@string/comment"
+            android:inputType="textMultiLine"
+            android:maxLength="200"
+            android:paddingStart="15dp"
+            android:paddingEnd="15sp"
+            android:textSize="28sp"
+            app:fontFamily="@font/fredoka_fonts"
+            app:layout_constraintEnd_toEndOf="@+id/view21"
+            app:layout_constraintStart_toStartOf="@+id/view21"
+            app:layout_constraintTop_toTopOf="@+id/view21"
+            tools:ignore="Autofill,RtlSymmetry" />
+
+        <EditText
+            android:id="@+id/edibottomwalletamaund"
+            android:layout_width="0dp"
+            android:layout_height="75dp"
+            android:background="@drawable/loginedittext1"
+            android:ems="10"
+            android:hint="@string/_0_asc"
+            android:inputType="number"
+            android:maxLength="20"
+            android:paddingStart="15dp"
+            android:textSize="28sp"
+            app:fontFamily="@font/fredoka_fonts"
+            app:layout_constraintEnd_toStartOf="@+id/guideline25s"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="@+id/guideline24w"
+            app:layout_constraintTop_toBottomOf="@+id/view18"
+            tools:ignore="Autofill,RtlSymmetry" />
+
+        <View
+            android:id="@+id/view24"
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="@color/hidecolor"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:id="@+id/view25"
+            android:layout_width="80dp"
+            android:layout_height="6dp"
+            android:background="@drawable/shadovfon"
+            app:layout_constraintEnd_toEndOf="@+id/view17"
+            app:layout_constraintStart_toStartOf="@+id/view17"
+            app:layout_constraintTop_toTopOf="@+id/view23" />
+
+        <View
+            android:id="@+id/view23"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:background="@color/hidecolor"
+            app:layout_constraintTop_toBottomOf="@+id/view24"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/send"
+            android:textColor="@color/black"
+            android:textSize="38sp"
+            android:textStyle="bold"
+            app:fontFamily="@font/fredoka_fonts"
+            app:layout_constraintEnd_toEndOf="@+id/view17"
+            app:layout_constraintStart_toStartOf="@+id/view17"
+            app:layout_constraintTop_toBottomOf="@+id/view23" />
+
+        <View
+            android:id="@+id/view15"
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="@color/hidecolor"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+        <View
+            android:id="@+id/view17"
+            android:layout_width="0dp"
+            android:layout_height="75dp"
+            android:background="@drawable/walletcard"
+            app:layout_constraintEnd_toStartOf="@+id/guideline25s"
+            app:layout_constraintStart_toStartOf="@+id/guideline24w"
+            app:layout_constraintTop_toBottomOf="@+id/view15" />
+
+        <View
+            android:id="@+id/view18"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view17" />
+
+        <ImageView
+            android:id="@+id/imageView22"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:elevation="8dp"
+            app:layout_constraintBottom_toBottomOf="@+id/btnbottomshare"
+            app:layout_constraintStart_toStartOf="@+id/guideline26"
+            app:layout_constraintTop_toTopOf="@+id/btnbottomshare"
+            app:srcCompat="@drawable/ic_export"
+            tools:ignore="ContentDescription" />
+
+        <View
+            android:id="@+id/view21"
+            android:layout_width="0dp"
+            android:layout_height="300dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/loginedittext1"
+            app:layout_constraintEnd_toEndOf="@+id/edibottomwalletamaund"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/edibottomwalletamaund"
+            app:layout_constraintTop_toBottomOf="@+id/edibottomwalletamaund" />
+
+        <Button
+            android:id="@+id/btnbottomshare"
+            style="@android:style/Widget.Holo.Button.Borderless"
+            android:layout_width="0dp"
+            android:layout_height="75dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/butttonstyle"
+            android:text="@string/send"
+            android:textColor="@color/white"
+            android:textSize="38sp"
+            app:fontFamily="@font/fredoka_fonts"
+            app:layout_constraintEnd_toStartOf="@+id/guideline25s"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@+id/guideline24w"
+            app:layout_constraintTop_toBottomOf="@+id/view21" />
+
+        <View
+            android:id="@+id/view22"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnbottomshare" />
+
+        <ImageView
+            android:id="@+id/imgpastbottom"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="8dp"
+            android:elevation="8dp"
+            android:scaleType="centerCrop"
+            app:layout_constraintBottom_toBottomOf="@+id/view17"
+            app:layout_constraintEnd_toEndOf="@+id/view17"
+            app:layout_constraintTop_toBottomOf="@+id/view15"
+            app:srcCompat="@drawable/ic_past"
+            tools:ignore="ContentDescription" />
+
+        <EditText
+            android:id="@+id/edibottomwalletid"
+            android:layout_width="0dp"
+            android:layout_height="34dp"
+            android:background="@drawable/loginedittext1"
+            android:hint="@string/wallet_address"
+            android:maxLength="50"
+            android:paddingStart="15dp"
+            android:textSize="28sp"
+            app:fontFamily="@font/fredoka_fonts"
+            app:layout_constraintBottom_toBottomOf="@+id/view17"
+            app:layout_constraintEnd_toStartOf="@+id/imgpastbottom"
+            app:layout_constraintStart_toStartOf="@+id/view17"
+            app:layout_constraintTop_toBottomOf="@+id/view15"
+            tools:ignore="Autofill,TextFields" />
+
+        <TextView
+            android:id="@+id/txtwalletname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/connect"
+            android:textSize="24sp"
+            app:fontFamily="@font/fredoka_fonts"
+            app:layout_constraintStart_toStartOf="@+id/edibottomwalletid"
+            app:layout_constraintTop_toBottomOf="@+id/view17" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline24w"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.15" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline25s"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.85" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.58" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

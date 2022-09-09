@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/custombottomsheet"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bottommenu">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="1017dp">
+
+        <View
+            android:id="@+id/view25"
+            android:layout_width="80dp"
+            android:layout_height="6dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/shadovfon"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:id="@+id/view22"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="126dp"
+            android:layout_height="43dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.501"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view25"
+            app:srcCompat="@drawable/ic_group_13"
+            tools:ignore="ContentDescription" />
+
+        <View
+            android:id="@+id/view12"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="12dp"
+            android:background="@color/fon"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView7" />
+
+        <ImageView
+            android:id="@+id/imageView23"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="32dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view12"
+            app:srcCompat="@drawable/ic_info_circle"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/bottchekamaunt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/connect"
+            android:textColor="@color/black"
+            android:textSize="26sp"
+            app:fontFamily="@font/fredoka_fonts"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView23"
+            app:layout_constraintStart_toStartOf="@+id/bottomchektitle"
+            app:layout_constraintTop_toBottomOf="@+id/bottomchektitle" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="@string/service"
+            android:textSize="24sp"
+            app:fontFamily="@font/fredoka_fonts"
+            app:layout_constraintStart_toStartOf="@+id/imageView23"
+            app:layout_constraintTop_toBottomOf="@+id/imageView23" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="@string/date_and_time"
+            android:textSize="24sp"
+            app:fontFamily="@font/fredoka_fonts"
+            app:layout_constraintStart_toStartOf="@+id/bottchektype"
+            app:layout_constraintTop_toBottomOf="@+id/bottchektype" />
+
+        <TextView
+            android:id="@+id/bottchektype"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/connect"
+            android:textColor="@color/black"
+            android:textSize="26sp"
+            app:fontFamily="@font/fredoka_fonts"
+            app:layout_constraintStart_toStartOf="@+id/textView10"
+            app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+        <TextView
+            android:id="@+id/bottchekdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/connect"
+            android:textColor="@color/black"
+            android:textSize="26sp"
+            app:fontFamily="@font/fredoka_fonts"
+            app:layout_constraintStart_toStartOf="@+id/textView11"
+            app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="@string/receiver_s_name"
+            android:textSize="24sp"
+            app:fontFamily="@font/fredoka_fonts"
+            app:layout_constraintStart_toStartOf="@+id/bottchekdate"
+            app:layout_constraintTop_toBottomOf="@+id/bottchekdate" />
+
+        <TextView
+            android:id="@+id/bottchekfio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/connect"
+            android:textColor="@color/black"
+            android:textSize="26sp"
+            app:fontFamily="@font/fredoka_fonts"
+            app:layout_constraintStart_toStartOf="@+id/textView15"
+            app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="@string/receiver_s_wallet"
+            android:textSize="24sp"
+            app:fontFamily="@font/fredoka_fonts"
+            app:layout_constraintStart_toStartOf="@+id/bottchekfio"
+            app:layout_constraintTop_toBottomOf="@+id/bottchekfio" />
+
+        <TextView
+            android:id="@+id/bottchekwallet_to"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/connect"
+            android:textColor="@color/black"
+            android:textIsSelectable="true"
+            android:textSize="26sp"
+            app:fontFamily="@font/fredoka_fonts"
+            app:layout_constraintStart_toStartOf="@+id/textView17"
+            app:layout_constraintTop_toBottomOf="@+id/textView17" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="@string/comment"
+            android:textSize="24sp"
+            app:fontFamily="@font/fredoka_fonts"
+            app:layout_constraintStart_toStartOf="@+id/bottchekwallet_to"
+            app:layout_constraintTop_toBottomOf="@+id/bottchekwallet_to" />
+
+        <TextView
+            android:id="@+id/bottchekcomment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/connect"
+            android:textColor="@color/black"
+            android:textSize="26sp"
+            app:fontFamily="@font/fredoka_fonts"
+            app:layout_constraintStart_toStartOf="@+id/textView19"
+            app:layout_constraintTop_toBottomOf="@+id/textView19" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="@string/status"
+            android:textSize="24sp"
+            app:fontFamily="@font/fredoka_fonts"
+            app:layout_constraintStart_toStartOf="@+id/bottchekcomment"
+            app:layout_constraintTop_toBottomOf="@+id/bottchekcomment" />
+
+        <TextView
+            android:id="@+id/bottchekstatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/connect"
+            android:textSize="26sp"
+            app:fontFamily="@font/fredoka_fonts"
+            app:layout_constraintStart_toStartOf="@+id/textView21"
+            app:layout_constraintTop_toBottomOf="@+id/textView21" />
+
+        <TextView
+            android:id="@+id/bottomchektitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="28dp"
+            android:text="@string/connect"
+            android:textColor="@color/black"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            app:fontFamily="@font/fredoka_fonts"
+            app:layout_constraintStart_toEndOf="@+id/imageView23"
+            app:layout_constraintTop_toTopOf="@+id/imageView23" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>
