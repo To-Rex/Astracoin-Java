@@ -74,6 +74,7 @@ import retrofit2.Response;
 
 public class FragmentSample extends Fragment {
 
+
     private SqlData sqlData;
     String token, wallet;
     private TextView txtusercoin, txtwalletname;

@@ -51,6 +51,9 @@ public class MainActivity extends AppCompatActivity {
         Button getBtnloginsain_up = findViewById(R.id.getBtnloginsain_up);
         readsql();
 
+
+
+
         final BottomSheetDialog dialog = new BottomSheetDialog(this, R.style.custombottomsheet);
         txtmalumot.setOnClickListener(v -> {
             v = getLayoutInflater().inflate(R.layout.borromsheetweb, null);

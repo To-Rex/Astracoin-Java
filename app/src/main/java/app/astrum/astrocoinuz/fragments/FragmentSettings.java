@@ -56,6 +56,7 @@ import retrofit2.Callback;
 import retrofit2.Response;
 
 public class FragmentSettings extends Fragment {
+
     private SqlData sqlData;
     String token, id, text, keys, password, photo, qwasar, email, last_name, name, status;
     TextView txtsetfullname, txtsetemail, txtsetlogout, txtsettshop, txtsettperinfo,

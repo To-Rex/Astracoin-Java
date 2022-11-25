@@ -43,6 +43,8 @@ import retrofit2.Response;
 
 public class TransferFragment extends Fragment {
 
+
+    
     private SqlData sqlData;
     String token;
     ArrayList<TransferRequest> trarray;

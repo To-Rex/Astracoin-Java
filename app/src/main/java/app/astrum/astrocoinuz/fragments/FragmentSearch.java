@@ -41,6 +41,7 @@ import retrofit2.Response;
 public class FragmentSearch extends Fragment {
     private SqlData sqlData;
     String token;
+
     ArrayList<UserRequestdata> dataModalArrayList;
     UserListAdapter adapter;
     ListView listViewsearch;
